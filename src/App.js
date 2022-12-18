@@ -16,7 +16,7 @@ const App = () => {
         <FeedbackProvider>
         <BrowserRouter>
 
-            <Header title='Feedback UI' />
+            <Header title='Feedback BOX' />
             <div className="container">
         
                 <Routes>
