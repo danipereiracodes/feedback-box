@@ -10,7 +10,7 @@ function FeedbackList() {
     if(!isLoading && (!feedback || feedback.length === 0)) {
         return <p>No feedback yet</p>
     }
-  return isLoading ? <Spinner/> : (
+  return isLoading ? <div className="feedback-list"><Spinner/></div> : (
     <div className="feedback-list">
         
         {feedback.map((item) => (
